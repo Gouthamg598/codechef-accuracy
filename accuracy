@@ -1,0 +1,40 @@
+There are 100 questions in a paper. Each question carries +3 marks for correct answer, -1 marks for incorrect answer and 0 marks for unattempted question.
+It is given that Chef received exactly  (0≤X≤100) marks. Determine the minimum number of problems Chef marked incorrect.
+
+# program:
+t=int(input())
+for i in range(t):
+    x=int(input())
+    q=x%3
+    if q==0:
+        print(0)
+    else:
+        p=3-q
+        print(p)
+        
+        output:
+4
+1)45
+0
+2)100
+2
+3)32
+1
+4)18
+0
+
+ ================================================================================
+Chef wants to appear in a competitive exam. To take the exam, there are following requirements:
+Minimum age limit is X (i.e. Age should be greater than or equal to X).
+Age should be strictly less than Y.
+Chef's current Age is AA. Find whether he is currently eligible to take the exam or not
+
+#program
+
+t=int(input())
+for i in range(t):
+    x,y,a=map(int,input().split())
+    if a>=x  and a<y:
+        print('yes')
+    else:
+        print('no')
