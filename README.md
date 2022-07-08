@@ -1,0 +1,2 @@
+# codechef-accuracy
+High Accuracy
